@@ -101,7 +101,7 @@ class _SignUpState extends State<SignUp> {
     );
   }
 
-  //Method to do http post request for sign up
+  //Method to perform http post request for sign up
   register(String email, password) async {
     //Variable to hold  decoded data
     var jsonResponse;
@@ -113,7 +113,6 @@ class _SignUpState extends State<SignUp> {
     };
 
     //Replace API with a working API
-
     var response = await http.post(Uri.parse("https://reqres.in/api/register"),
         body: data);
 

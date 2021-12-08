@@ -1,17 +1,14 @@
 import 'package:flutter/material.dart';
-//import 'package:firebase_auth/firebase_auth.dart';
 import 'home_screen.dart';
 
 class SignUp extends StatefulWidget {
-  //const SignUp({Key? key}) : super(key: key);
+  
 
   @override
   _SignUpState createState() => _SignUpState();
 }
 
 class _SignUpState extends State<SignUp> {
-  // Firebase Auth instance
-  //final FirebaseAuth _auth = FirebaseAuth.instance;
 
   //form key
   GlobalKey<FormState> _formKey = GlobalKey<FormState>();
@@ -71,21 +68,7 @@ class _SignUpState extends State<SignUp> {
                 ),
               ),
               onPressed: () async {
-                // if (_formKey.currentState!.validate()) {
-                //   await _auth.signInWithEmailAndPassword(
-                //     email: _emailController.text,
-                //     password: _passwordController.text,
-                //   );
-
-                //   Navigator.of(context).push(
-                //     MaterialPageRoute(builder: (context) => HomeScreen()),
-                //   );
-                // } else {
-                //   showDialog(
-                //     context: context,
-                //     builder: (context) => Text("Incorect Details"),
-                //   );
-                // }
+       
               },
             ),
           ],
