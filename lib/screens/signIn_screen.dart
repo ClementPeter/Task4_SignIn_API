@@ -10,7 +10,7 @@ class SignUp extends StatefulWidget {
 
 class _SignUpState extends State<SignUp> {
 
-  //form key
+  
   GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   //scaffold key
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
