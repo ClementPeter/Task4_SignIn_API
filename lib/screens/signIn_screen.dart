@@ -16,7 +16,7 @@ class _SignUpState extends State<SignUp> {
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
   
   TextEditingController _emailController = TextEditingController();
-  //password controller
+  
   TextEditingController _passwordController = TextEditingController();
 
   @override
