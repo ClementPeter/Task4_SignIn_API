@@ -14,7 +14,6 @@ class _SignUpState extends State<SignUp> {
   GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   //scaffold key
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
-
   //email controller
   TextEditingController _emailController = TextEditingController();
   //password controller
