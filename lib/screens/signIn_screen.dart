@@ -27,7 +27,7 @@ class _SignUpState extends State<SignUp> {
     return Scaffold(
       key: _scaffoldKey,
       appBar: AppBar(
-        title: Text("Sign Up in irnfeofjiowjfiojrofweijfiowrejfiorjhfiowjfijfw Screen"),
+        title: Text("Sign Up  irnfeofjiowjfiojrofweijfiowrejfiorjhfiowjfijfw Screen"),
       ),
       body: Form(
         key: _formKey,
