@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'home_screen.dart';
 
-class SignUp extends StatefulWidget {
-  
+class SignUp extends StatefulWidget {  
 
   @override
   _SignUpState createState() => _SignUpState();
